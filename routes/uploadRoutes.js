@@ -14,15 +14,13 @@ const multer = require("multer");
  * Uploads and processes a ZIP file
  */
 router.post("/upload", (req, res) => {
-  upload.single("zipFile")(req, res, function (err) {
+  upload.single("zipFile")(req, res, async function (err) {
     if (err) {
       if (err instanceof multer.MulterError) {
-        // A Multer error occurred during upload
         return res
           .status(400)
           .json({ error: "Upload failed", details: err.message });
       } else {
-        // An unknown error occurred
         return res
           .status(500)
           .json({ error: "Server error", details: err.message });
@@ -34,11 +32,14 @@ router.post("/upload", (req, res) => {
         return res.status(400).json({ error: "No ZIP file uploaded" });
       }
 
-      const processedData = processZipFile(req.file);
+      const processedData = await processZipFile(req.file);
       const fileId = generateFileId();
 
       // Store the processed data with the generated ID
       storeProcessedFile(fileId, processedData);
+
+      // Log to confirm storage
+      console.log(`File processed and stored with ID: ${fileId}`);
 
       res.json({
         message: "ZIP file processed successfully",
@@ -48,8 +49,11 @@ router.post("/upload", (req, res) => {
       });
     } catch (error) {
       console.error("Error processing ZIP file:", error);
+
+      // Send more specific error message for validation failures
+      const statusCode = error.message.startsWith("Invalid ZIP:") ? 400 : 500;
       res
-        .status(500)
+        .status(statusCode)
         .json({ error: "Failed to process ZIP file", details: error.message });
     }
   });
@@ -61,10 +65,17 @@ router.post("/upload", (req, res) => {
  */
 router.get("/files/:fileId", (req, res) => {
   const fileId = req.params.fileId;
+  console.log(`GET request for file ID: ${fileId}`);
+
   const fileData = getProcessedFile(fileId);
 
   if (!fileData) {
-    return res.status(404).json({ error: "File not found" });
+    return res.status(404).json({
+      error: "File not found",
+      id: fileId,
+      message:
+        "The requested file ID was not found in storage. It may have been removed or the server was restarted.",
+    });
   }
 
   res.json({
@@ -81,8 +92,11 @@ router.get("/files/:fileId", (req, res) => {
  * List all processed files
  */
 router.get("/files", (req, res) => {
+  const files = listProcessedFiles();
+  console.log(`Available files: ${files.length}`);
+
   res.json({
-    files: listProcessedFiles(),
+    files: files,
   });
 });
 

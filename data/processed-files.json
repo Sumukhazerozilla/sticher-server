@@ -1,0 +1,88 @@
+[
+  [
+    "b79d54a79d02e38b",
+    {
+      "metadata": {
+        "points": [
+          {
+            "x": 944,
+            "y": 1031,
+            "time": 1745925179020,
+            "button": 1,
+            "relativeTime": 273
+          },
+          {
+            "x": 1000,
+            "y": 1045,
+            "time": 1745925180062,
+            "button": 1,
+            "relativeTime": 1315
+          }
+        ],
+        "lastRecording": {
+          "startTime": 1745925178747,
+          "endTime": 1745925182030,
+          "screenSize": {
+            "width": 1280,
+            "height": 672
+          },
+          "customRegion": {
+            "x": 286,
+            "y": 360,
+            "width": 640,
+            "height": 360
+          },
+          "totalPausedTime": 0,
+          "videoFormats": [
+            "webm",
+            "mp4"
+          ]
+        },
+        "autoCaptures": [
+          {
+            "time": 1745925179259,
+            "relativeTime": 512,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745925179259.png"
+          },
+          {
+            "time": 1745925179760,
+            "relativeTime": 1013,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745925179760.png"
+          },
+          {
+            "time": 1745925180268,
+            "relativeTime": 1521,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745925180268.png"
+          },
+          {
+            "time": 1745925180783,
+            "relativeTime": 2036,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745925180783.png"
+          },
+          {
+            "time": 1745925181292,
+            "relativeTime": 2545,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745925181292.png"
+          }
+        ]
+      },
+      "imageLinks": [
+        "/assets/1745928472330-myFolder2/processed_images/auto_1745925179259.png",
+        "/assets/1745928472330-myFolder2/processed_images/auto_1745925179760.png",
+        "/assets/1745928472330-myFolder2/processed_images/auto_1745925180268.png",
+        "/assets/1745928472330-myFolder2/processed_images/auto_1745925180783.png",
+        "/assets/1745928472330-myFolder2/processed_images/auto_1745925181292.png",
+        "/assets/1745928472330-myFolder2/processed_images/click_1745925179020_944_1031.png",
+        "/assets/1745928472330-myFolder2/processed_images/click_1745925180062_1000_1045.png"
+      ],
+      "folderName": "1745928472330-myFolder2",
+      "filename": "myFolder2.zip",
+      "timestamp": 1745928472541
+    }
+  ]
+]
