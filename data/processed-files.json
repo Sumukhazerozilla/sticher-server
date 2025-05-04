@@ -84,5 +84,305 @@
       "filename": "myFolder2.zip",
       "timestamp": 1745928472541
     }
+  ],
+  [
+    "eaf52b4ccb105f72",
+    {
+      "metadata": {
+        "points": [
+          {
+            "x": 1659,
+            "y": 396,
+            "time": 1745929638626,
+            "button": 1,
+            "relativeTime": 836
+          },
+          {
+            "x": 1644,
+            "y": 428,
+            "time": 1745929641433,
+            "button": 1,
+            "relativeTime": 3643
+          },
+          {
+            "x": 369,
+            "y": 0,
+            "time": 1745929643287,
+            "button": 1,
+            "relativeTime": 5497
+          },
+          {
+            "x": 108,
+            "y": 159,
+            "time": 1745929645734,
+            "button": 1,
+            "relativeTime": 7944
+          },
+          {
+            "x": 431,
+            "y": 835,
+            "time": 1745929648124,
+            "button": 1,
+            "relativeTime": 10334
+          }
+        ],
+        "lastRecording": {
+          "startTime": 1745929637790,
+          "endTime": 1745929651464,
+          "screenSize": {
+            "width": 1280,
+            "height": 672
+          },
+          "customRegion": null,
+          "totalPausedTime": 0,
+          "videoFormats": [
+            "webm",
+            "mp4"
+          ]
+        },
+        "autoCaptures": [
+          {
+            "time": 1745929638294,
+            "relativeTime": 504,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929638294.png"
+          },
+          {
+            "time": 1745929638807,
+            "relativeTime": 1017,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929638807.png"
+          },
+          {
+            "time": 1745929639317,
+            "relativeTime": 1527,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929639317.png"
+          },
+          {
+            "time": 1745929640340,
+            "relativeTime": 2550,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929640340.png"
+          },
+          {
+            "time": 1745929640842,
+            "relativeTime": 3052,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929640842.png"
+          },
+          {
+            "time": 1745929641347,
+            "relativeTime": 3557,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929641347.png"
+          },
+          {
+            "time": 1745929641860,
+            "relativeTime": 4070,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929641860.png"
+          },
+          {
+            "time": 1745929642362,
+            "relativeTime": 4572,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929642362.png"
+          },
+          {
+            "time": 1745929642876,
+            "relativeTime": 5086,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929642876.png"
+          },
+          {
+            "time": 1745929643431,
+            "relativeTime": 5641,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929643431.png"
+          },
+          {
+            "time": 1745929644445,
+            "relativeTime": 6655,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929644445.png"
+          },
+          {
+            "time": 1745929644959,
+            "relativeTime": 7169,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929644959.png"
+          },
+          {
+            "time": 1745929645474,
+            "relativeTime": 7684,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929645474.png"
+          },
+          {
+            "time": 1745929645976,
+            "relativeTime": 8186,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929645976.png"
+          },
+          {
+            "time": 1745929646477,
+            "relativeTime": 8687,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929646477.png"
+          },
+          {
+            "time": 1745929646978,
+            "relativeTime": 9188,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929646978.png"
+          },
+          {
+            "time": 1745929647493,
+            "relativeTime": 9703,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929647493.png"
+          },
+          {
+            "time": 1745929648505,
+            "relativeTime": 10715,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929648505.png"
+          },
+          {
+            "time": 1745929649518,
+            "relativeTime": 11728,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929649518.png"
+          },
+          {
+            "time": 1745929650022,
+            "relativeTime": 12232,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929650022.png"
+          },
+          {
+            "time": 1745929650526,
+            "relativeTime": 12736,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929650526.png"
+          },
+          {
+            "time": 1745929651037,
+            "relativeTime": 13247,
+            "type": "auto-capture",
+            "screenshot": "images/auto_1745929651037.png"
+          }
+        ]
+      },
+      "imageLinks": [
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929638294.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929638807.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929639317.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929640340.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929640842.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929641347.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929641860.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929642362.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929642876.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929643431.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929644445.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929644959.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929645474.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929645976.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929646477.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929646978.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929647493.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929648505.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929649518.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929650022.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929650526.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/auto_1745929651037.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/click_1745929638626_1659_396.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/click_1745929641433_1644_428.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/click_1745929643287_369_0.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/click_1745929645734_108_159.png",
+        "/assets/1745929693652-myFolder-custom/processed_images/click_1745929648124_431_835.png"
+      ],
+      "folderName": "1745929693652-myFolder-custom",
+      "filename": "myFolder-custom.zip",
+      "timestamp": 1745929693934
+    }
+  ],
+  [
+    "6f29a0637158e24a",
+    {
+      "metadata": {
+        "points": [
+          {
+            "x": 204,
+            "y": 562,
+            "time": 1746337367498,
+            "button": 1,
+            "relativeTime": 1182
+          },
+          {
+            "x": 194,
+            "y": 605,
+            "time": 1746337370566,
+            "button": 1,
+            "relativeTime": 4250
+          },
+          {
+            "x": 198,
+            "y": 658,
+            "time": 1746337373407,
+            "button": 1,
+            "relativeTime": 7091
+          },
+          {
+            "x": 1586,
+            "y": 737,
+            "time": 1746337378975,
+            "button": 1,
+            "relativeTime": 12659
+          },
+          {
+            "x": 1591,
+            "y": 775,
+            "time": 1746337380990,
+            "button": 1,
+            "relativeTime": 14674
+          },
+          {
+            "x": 1584,
+            "y": 799,
+            "time": 1746337382328,
+            "button": 1,
+            "relativeTime": 16012
+          }
+        ],
+        "lastRecording": {
+          "startTime": 1746337366316,
+          "endTime": 1746337385280,
+          "screenSize": {
+            "width": 1280,
+            "height": 672
+          },
+          "customRegion": null,
+          "totalPausedTime": 0,
+          "videoFormats": [
+            "webm",
+            "mp4"
+          ]
+        }
+      },
+      "imageLinks": [
+        "/assets/1746337462229-expo-docs/processed_images/click_1746337367498_204_562.png",
+        "/assets/1746337462229-expo-docs/processed_images/click_1746337370566_194_605.png",
+        "/assets/1746337462229-expo-docs/processed_images/click_1746337373407_198_658.png",
+        "/assets/1746337462229-expo-docs/processed_images/click_1746337378975_1586_737.png",
+        "/assets/1746337462229-expo-docs/processed_images/click_1746337380990_1591_775.png",
+        "/assets/1746337462229-expo-docs/processed_images/click_1746337382328_1584_799.png"
+      ],
+      "folderName": "1746337462229-expo-docs",
+      "filename": "expo-docs.zip",
+      "timestamp": 1746337462334
+    }
   ]
 ]

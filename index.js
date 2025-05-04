@@ -1,14 +1,15 @@
 const express = require("express");
 const path = require("path");
 const uploadRoutes = require("./routes/uploadRoutes");
+const cors = require("cors");
 
 // Create Express application
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware to parse JSON request bodies
+app.use(cors());
 app.use(express.json());
-
 // Serve static files
 app.use("/assets", express.static(path.join(__dirname, "assets")));
 app.use("/static", express.static(path.join(__dirname, "example-zip")));
