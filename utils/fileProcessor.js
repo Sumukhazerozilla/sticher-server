@@ -157,6 +157,21 @@ const processZipFile = async (file) => {
     );
   }
 
+  // Read cursor-movement.json
+  try {
+    const cursorMovementPath = path.join(extractDir, "cursor-movement.json");
+    if (fs.existsSync(cursorMovementPath)) {
+      const cursorMovementContent = fs.readFileSync(cursorMovementPath, "utf8");
+      const cursorMovementData = JSON.parse(cursorMovementContent);
+      metadata.cursorMovement = cursorMovementData;
+    }
+  } catch (error) {
+    console.error("Error parsing cursor-movement.json:", error);
+    throw new Error(
+      `Invalid ZIP: cursor-movement.json parsing failed - ${error.message}`
+    );
+  }
+
   // Validate images directory exists
   const imagesDir = path.join(extractDir, "images");
   if (!fs.existsSync(imagesDir)) {
