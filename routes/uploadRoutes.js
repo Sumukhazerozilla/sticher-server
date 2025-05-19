@@ -16,6 +16,7 @@ const multer = require("multer");
 router.post("/upload", (req, res) => {
   upload.single("zipFile")(req, res, async function (err) {
     if (err) {
+      console.error("Multer error:", err);
       if (err instanceof multer.MulterError) {
         return res
           .status(400)
@@ -29,6 +30,7 @@ router.post("/upload", (req, res) => {
 
     try {
       if (!req.file) {
+        console.log("No file uploaded", req?.file);
         return res.status(400).json({ error: "No ZIP file uploaded" });
       }
 
@@ -46,6 +48,7 @@ router.post("/upload", (req, res) => {
         fileId: fileId,
         metadata: processedData.metadata,
         images: processedData.imageLinks,
+        audio: processedData?.audioPath,
       });
     } catch (error) {
       console.error("Error processing ZIP file:", error);
@@ -82,6 +85,7 @@ router.get("/files/:fileId", (req, res) => {
     fileId: fileId,
     metadata: fileData.metadata,
     images: fileData.imageLinks,
+    audio: fileData.audioPath,
     filename: fileData.filename,
     processedAt: new Date(fileData.timestamp).toISOString(),
   });

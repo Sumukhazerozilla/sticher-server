@@ -225,11 +225,21 @@ const processZipFile = async (file) => {
       });
   }
 
+  // Check for audio.webm file
+  let audioPath = null;
+  const audioFilePath = path.join(extractDir, "audio.webm");
+  if (fs.existsSync(audioFilePath)) {
+    // Create a URL path for the audio file
+    audioPath = `/assets/${folderName}/audio.webm`;
+    console.log("Audio file found and processed:", audioPath);
+  }
+
   return {
     metadata,
     imageLinks,
     folderName,
     filename: file.originalname,
+    audioPath,
   };
 };
 
